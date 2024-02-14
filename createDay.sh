@@ -18,7 +18,7 @@ export const day'${day}'Part02 = (input: string): number => {
 
 testInit=$'import { describe, test } from "node:test"
 import assert from "node:assert"
-import { day01Part01, day01Part02 } from "../src/day01"
+import { day'${day}'Part01, day'${day}'Part02 } from "../src/day'${day}'"
 import fs from "fs"
 
 const SAMPLE_INPUT = ``
