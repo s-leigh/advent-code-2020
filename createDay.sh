@@ -23,6 +23,8 @@ import fs from "fs"
 
 const SAMPLE_INPUT = ``
 
+const input = fs.readFileSync("./input/day'${day}'Input").toString()
+
 describe("Day '"${day}"\"', () => {
   test("Day '${day}' part 01 sample input", () => {
     
